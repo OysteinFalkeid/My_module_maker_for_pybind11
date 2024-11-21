@@ -8,7 +8,7 @@ cmake -S ./src -G "Visual Studio 17 2022" -A x64 -DPython3_EXECUTABLE=C:\Users\O
 cmake --build . --config Release
 
 # Create a file for the vs code intelisence. skal kjøres fra ./build/Release for å oprette filer
-stubgen -m my_module -o .
+stubgen -m my_module -o . --include-docstrings
 
 # Buyilds the module and creates a .ipy file for intelisence
 ./build/src/build.cmd

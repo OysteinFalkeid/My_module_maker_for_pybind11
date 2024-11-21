@@ -4,3 +4,8 @@ build/*.dir
 build/x64
 build/*.*
 extern/
+build/src/pybind11/
+
+pybind11
+
+.vscode

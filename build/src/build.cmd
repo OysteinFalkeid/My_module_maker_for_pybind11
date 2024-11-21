@@ -1,3 +1,4 @@
-cd ..
+cd ./build
 cmake --build . --config Release
-stubgen -m my_module -o ./Release
+cd ./Release
+stubgen -m my_module -o . --include-docstrings
