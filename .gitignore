@@ -1,15 +1,5 @@
 __pycache__
-build/CMakeFiles
-build/*.dir
-build/x64
-build/*.*
-extern/
-build/src/pybind11/
 build/*
-pybind11
-
 project/build
 project/.pytest_cached
-
-
 .vscode
